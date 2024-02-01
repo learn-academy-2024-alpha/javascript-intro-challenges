@@ -12,12 +12,17 @@
 // Does !3 strictly equal 3?
     console.log(!3 === 3);
 // Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
-console.log("LEARN".length === 5 && "student".length === 7);
+    console.log("LEARN".length === 5 && "student".length === 7);
 // Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+    console.log("LEARN".length === 5 || "student".length === 10);
 // Does "LEARN" contain the subset "RN"?
+    console.log("LEARN".includes("RN"));
 // Does "LEARN" contain the subset "rn"?
+    console.log("LEARN".includes("rn"));
 // Does "LEARN"[0] strictly equal "l"?
+    console.log("LEARN"[0] === "l");
 // Modify the code from the previous question to return true.
+    console.log("LEARN"[0] === "L")
 // Write a conditional statement for the following prompts. Make sure you try different options and change the variables to ensure properly working code.
 
 // Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
