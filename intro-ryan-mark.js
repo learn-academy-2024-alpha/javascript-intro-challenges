@@ -40,8 +40,14 @@ console.log(theQuestion.length + theAnswer)
 // Write the code that will log the index of the character "f" in the theQuestion.
 console.log(theQuestion[2])
 // Write the code that will log the index of the second comma in the theQuestion.
+console.log(theQuestion[18])
 // Write the code that will log the concatenation of the two variables.
+console.log(theQuestion + "", theAnswer)
 // Write the code that will log the character "l" from theQuestion.
+console.log(theQuestion.charAt(0));
 // Write the code that will extract "the universe" from theQuestion.
+console.log(theQuestion.slice(6,18))
 // Write the code that will extract "everything" from theQuestion.
+console.log(theQuestion.slice(24,34))
 // Write the code that will log the last character of theQuestion without manually counting the number of characters.
+console.log(theQuestion.slice(-1))
