@@ -1,15 +1,73 @@
 // Write the code that will log true or false for the following:
 
 // Is 34 divided by 3 greater than 67 divided by 2?
+let firstDivision = 34 / 3
+let secondDivision = 67 / 2
+
+if (firstDivision > secondDivision) {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does 5 evaluate to the same as "5"?
+if (5 == "5") {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does 5 strictly equal "5"?
+if (5 === "5") {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does !3 strictly equal 3?
+if (!3 === "3") {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
+let learn = "LEARN"
+let learnLength = learn.length
+let student = "Student"
+let studentLength = student.length
+
+if (learnLength === 5 && studentLength === 7) {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+if (learnLength === 5 || studentLength === 10) {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does "LEARN" contain the subset "RN"?
+if (learn.includes("RN")) {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does "LEARN" contain the subset "rn"?
+if (learn.includes("rn")) {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Does "LEARN"[0] strictly equal "l"?
+if(learn[0] === "l") {
+    console.log("true")
+} else {
+    console.log("false")
+}
 // Modify the code from the previous question to return true.
+if(learn[0] === "L") {
+    console.log("true")
+} else {
+    console.log("false")
+}
 
 
 
