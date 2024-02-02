@@ -24,18 +24,29 @@ console.log(numbers)
 numbers[6] = 12
 console.log(numbers)
 // Write the code that will remove the first number from the array.
+console.log(numbers.shift());
+console.log(numbers);
 // Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
+ const numOne = [0]
+ console.log(numOne.concat(numbers));
+console.log(numbers);
 // Consider the variable:
 
-// var numSet = [2, 13, 6, 8, 4, 2]
+var numSet = [2, 13, 6, 8, 4, 2]
 // Write the code that finds the index of the first appearance of the number 2.
+console.log(numSet.indexOf(2));
 // Write the code that finds the index of the last appearance of the number 2.
+console.log(numSet.lastIndexOf(2));
 // Write the code that returns the number at the third index.
+console.log(numSet[3])
 // Consider the variable:
 
-// var characters = ["y", "a", "r", "r", "a"]
+var characters = ["y", "a", "r", "r", "a"]
 // Write the code that brings all the letters in the characters array together into a string.
+console.log(characters.join(""));
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
+console.log(characters.reverse());
+let charsReversed = characters.reverse();
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
 // Create two arrays consisting of three first names of your cohort members in each array.
