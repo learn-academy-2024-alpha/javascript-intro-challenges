@@ -12,13 +12,19 @@ for(let i=0; i<secNum.length; i+=2){
     console.log("index:", i, "value", secNum[i])
 }
 // Create a for loop that logs the result of each number from 1 - 20 tripled.
+<<<<<<< HEAD
 
+=======
+>>>>>>> c02d940478790e0b676a89dbb907dc66a2902fba
 let thirdNum =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 for(let i=0; i<thirdNum.length; i++){
     let result = thirdNum[i] * 3
     console.log(`tripled is: ${result}`)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c02d940478790e0b676a89dbb907dc66a2902fba
 // Create a for loop that logs each even number from 1-20, and in the place of every odd number, returns the word "ODD".
 
 let fourNum =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
