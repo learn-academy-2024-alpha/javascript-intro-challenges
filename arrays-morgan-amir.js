@@ -93,8 +93,14 @@ var oddIndexes = []
 
 
 // Write the code that logs the values from the numbers array that are at odd indexes.
-
-
-
-
+let oddIndex = 1;
+while (oddIndex < numbers.length) {
+    console.log(numbers[oddIndex])
+    oddIndex += 2
+}
 // Write the code that adds the values from odd indexes into the oddIndexes array.
+while (oddIndex < numbers.length) {
+    oddIndexes.push(numbers[oddIndex])
+    oddIndex += 2
+}
+console.log(oddIndexes)
