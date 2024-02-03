@@ -26,21 +26,54 @@
 
 const nums = [3, 57, -9, 20, 67]
 // Create the code that will log the largest number from the array.
-  for(let i=0; i<nums.length; i++){
-    if(nums[i] === 67)
-    console.log(nums[i]);
-  }
+  
+  // let max = 0
+  // for (let i = 0; i < nums.length; i++){
+  //   if (nums[i] > max){
+  //       max = nums[i];
+  //   }
+  // }
+  // console.log(max);
+
 
 // Create the code that will log the smallest number from the array.
+// let min = 0
+// for (let i = 0; i < nums.length; i++){
+//   if (nums[i] < min){
+//       min = nums[i];
+//   }
+// }
+// console.log(min);
 
 // Create the code that will log the remainder of each number when divided by 2.
 // Expected output: 1, 1, -1, 0, 1
-// Consider this variable:
+// for (let i = 0; i < nums.length; i++) {
+//   console.log(nums[i] % 2);
+// }
 
+// Consider this variable:
 const myString = "learn student"
 // Create the code that will log the number of times the letter "e" occurs in the string.
-// Create the code that will log every other character in the string.
 
+let stringE = 0
+for (let i = 0; i < myString.length; i++){
+  if (myString[i] === "e"){
+      stringE += myString[i].length;
+      console.log(stringE);
+
+  }
+  // console.log(myString[i].length);
+
+}
+// console.log(myString[i].length);
+
+
+
+
+// Create the code that will log every other character in the string.
+// for (let i = 0; i < myString.length; i++) {
+//   console.log(myString[i]);
+// }
 
 
 // 🏔 Stretch Goals
