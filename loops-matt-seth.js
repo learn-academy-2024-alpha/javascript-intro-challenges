@@ -55,25 +55,24 @@ const nums = [3, 57, -9, 20, 67]
 const myString = "learn student"
 // Create the code that will log the number of times the letter "e" occurs in the string.
 
-let stringE = 0
-for (let i = 0; i < myString.length; i++){
-  if (myString[i] === "e"){
-      stringE += myString[i].length;
-      console.log(stringE);
+// let stringE = 0
+// let stringArray = myString.split("")
+// for (let i = 0; i < stringArray.length; i++){
+//   if (stringArray[i] === "e"){
+//       stringE++
+//   }
+// }
+// console.log(stringE);
 
-  }
-  // console.log(myString[i].length);
-
-}
-// console.log(myString[i].length);
 
 
 
 
 // Create the code that will log every other character in the string.
-// for (let i = 0; i < myString.length; i++) {
-//   console.log(myString[i]);
-// }
+let stringArr = myString.split("");
+for (let i = 0; i < stringArr.length; i+=2) {
+    console.log("this is every other character: " + stringArr[i]);
+}
 
 
 // 🏔 Stretch Goals
