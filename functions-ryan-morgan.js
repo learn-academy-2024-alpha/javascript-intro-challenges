@@ -114,47 +114,76 @@ console.log(greeting(person))
 // input: 2 strings
 // output: 1 string (most chars)
 // logic: conditional comparison
-const isLonger = (string1, string2) => {
-    if (string1.length < string2.length) {
-        return string2
-    } else {
-        return string1
-    }
-}
-let firstStr = "A Long String"
-let secondStr = "Short"
-console.log(isLonger(firstStr, secondStr))
+// const isLonger = (string1, string2) => {
+//     if (string1.length < string2.length) {
+//         return string2
+//     } else {
+//         return string1
+//     }
+// }
+// let firstStr = "A Long String"
+// let secondStr = "Short"
+// console.log(isLonger(firstStr, secondStr))
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 // input: 2 numbers
 // output: 1 number (bigger num)
 // logic: conditional comparison
-const greaterNum = (number1, number2) => {
-    if (number1 > number2) {
-        return number1
-    } else {
-        return number2
-    }
-}
-let firstNum = 730
-let secondNum = 238
-console.log(greaterNum(firstNum, secondNum))
+// const greaterNum = (number1, number2) => {
+//     if (number1 > number2) {
+//         return number1
+//     } else {
+//         return number2
+//     }
+// }
+// let firstNum = 730
+// let secondNum = 238
+// console.log(greaterNum(firstNum, secondNum))
 
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
 // input: 1 string
 // output: 1 string in UPPER
-const yelling = (string) => {
-    return string.toUpperCase()
-}
-let lowerString = "hello"
-console.log(yelling(lowerString))
+// const yelling = (string) => {
+//     return string.toUpperCase()
+// }
+// let lowerString = "hello"
+// console.log(yelling(lowerString))
 
 // 🏔 Stretch Goals
 // The World Translator
 
 // Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
 // Have your function default to returning English.
+// input : 1 string
+// output: 1 string in different language
+// logic: conditional comparison 
+
+// const helloWorld = (langCode) => {
+//     if (langCode === "es"){
+//         return "hola Mundo"  
+//     } else if  (langCode === "de"){
+//         return "Hallo Welt"
+//     } else if (langCode === "ja"){
+//         return "こんにちは世界"
+//     } else if (langCode === "tr"){
+//         return "Selam Dünya"
+//     } else {
+//         return "Hello World"
+//     }
+    
+// }
+// let diffLangs1 = "es"
+// let diffLangs2 = "de"
+// let diffLangs3 = "ja"
+// let diffLangs4 = "tr"
+// console.log(helloWorld(diffLangs1));
+// console.log(helloWorld(diffLangs2));
+// console.log(helloWorld(diffLangs3));
+// console.log(helloWorld(diffLangs4));
+// console.log(helloWorld());
+
+
 // The Pluralizer
 
 // Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
