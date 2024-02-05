@@ -4,7 +4,7 @@
 
 var groceryList = ["chips", "dip", "cookies"]
 // Write the code that will add "soda" to the end of the original array.
-console.log(groceryList.push("soda"))
+groceryList.push("soda")
 console.log(groceryList)
 // Write the code that will add "granola" to the end of the array without altering the original array.
 console.log(groceryList.concat("granola"))
@@ -54,6 +54,7 @@ let charsReversed = characters.reverse();
 // // Create two arrays consisting of three first names of your cohort members in each array.
 let group1 = ["judas", "ryan", "matt"]
 let group2 = ["luis", "morgan", "seth"]
+
 // console.log(group1, group2)
 // // Write the code that sorts the names in alphabetical order.
 // console.log( group1.sort(), group2.sort())
@@ -64,10 +65,22 @@ let group2 = ["luis", "morgan", "seth"]
  group2.reverse()
  console.log(group1, group2)
  //group2.sort(((a, b) => b - a)))
+
+console.log(group1, group2)
+// Write the code that sorts the names in alphabetical order.
+console.log(group1.sort(), group2.sort())
+// Write the code that sorts the names in reverse alphabetical order.
+console.log(group1.sort().reverse())
+console.log(group2.sort().reverse())
+
 // Write the code that sorts all the names in alphabetical order in a single array.
+let sortedGroup1 = group1.sort()
+let sortedGroup2 = group2.sort()
+let sortedCombinedArray = sortedGroup1.concat(sortedGroup2).sort()
+console.log(sortedCombinedArray)
 // Consider the variables: 
 
-// var numbers = [42, 221, 71, 7, 18, 87]
-// var oddIndexes = []
+//var numbers = [42, 221, 71, 7, 18, 87]
+//var oddIndexes = []
 // Write the code that logs the values from the numbers array that are at odd indexes.
 // Write the code that adds the values from odd indexes into the oddIndexes array.
