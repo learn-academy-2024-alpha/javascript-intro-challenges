@@ -45,24 +45,110 @@ console.log(greeting(person))
 
 // Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
 
-const multiply = (number) => {
-    let triple = number * 3
-    return `${triple}`
-}
-let number1 = 7
-console.log(multiply(number1))
+// const multiply = (number) => {
+//     let triple = number * 3
+//     return `${triple}`
+// }
+// let number1 = 7
+// console.log(multiply(number1))
 
 // Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
+// input: 2 numbers
+// output: 1 number multiplied
+// const multiply = (number1, number2) => {
+//     let multiplied = number1 * number2
+//     return multiplied
+// }
+// let firstNum = 2
+// let secondNum = 5
+// console.log(multiply(firstNum, secondNum))
 
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+// input: 2 numbers
+// output: string "number is evenly divisible by number"
+// logic: conditional statement involving the modulus
+// const divisibleBy = (number1, number2) => {
+//     if (number1 % number2 === 0) {
+//         return `${number1} is evenly divisible by ${number2}`
+//     } else {
+//         return `${number1} is not evenly divisible by ${number2}`
+//     }
+// }
+// let firstNum = 10
+// let secondNum = 6
+// console.log(divisibleBy(firstNum, secondNum))
 
-// Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+// // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+// // input: number (grade)
+// // output: string (letter)
+// // logic: conditional statement
+// const assignGrade = (numberGrade) => {
+//     if (numberGrade < 100 && numberGrade >= 90) {
+//         return `A`
+//     } else if (numberGrade < 90 && numberGrade >= 80) {
+//         return `B`
+//     } else if (numberGrade < 80 && numberGrade >= 70) {
+//         return `C`
+//     } else if (numberGrade < 70 && numberGrade >= 60) {
+//         return `D`
+//     } else if (numberGrade < 60) {
+//         return `F`
+//     } else {
+//         return `Enter a number grade between 0-100`
+//     }
+// }
+// let grade1 = 90
+// let grade2 = 85
+// let grade3 = 70
+// let grade4 = 65
+// let grade5 = 0
+// let notGrade = "kdjkfjhsdfpowe"
+// console.log(assignGrade(grade1))
+// console.log(assignGrade(grade2))
+// console.log(assignGrade(grade3))
+// console.log(assignGrade(grade4))
+// console.log(assignGrade(grade5))
+// console.log(assignGrade(notGrade))
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+// input: 2 strings
+// output: 1 string (most chars)
+// logic: conditional comparison
+const isLonger = (string1, string2) => {
+    if (string1.length < string2.length) {
+        return string2
+    } else {
+        return string1
+    }
+}
+let firstStr = "A Long String"
+let secondStr = "Short"
+console.log(isLonger(firstStr, secondStr))
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+// input: 2 numbers
+// output: 1 number (bigger num)
+// logic: conditional comparison
+const greaterNum = (number1, number2) => {
+    if (number1 > number2) {
+        return number1
+    } else {
+        return number2
+    }
+}
+let firstNum = 730
+let secondNum = 238
+console.log(greaterNum(firstNum, secondNum))
+
 
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+// input: 1 string
+// output: 1 string in UPPER
+const yelling = (string) => {
+    return string.toUpperCase()
+}
+let lowerString = "hello"
+console.log(yelling(lowerString))
 
 // 🏔 Stretch Goals
 // The World Translator
