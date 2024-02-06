@@ -48,18 +48,31 @@ console.log(characters.join(""));
 // console.log(characters.reverse());
 let charsReversed = characters.reverse();
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
-console.log(charsReversed.join("*"))
-// Write the code that brings all the letters in the charsReversed array together into a string without separators.
-console.log(charsReversed.join(""))
-// Create two arrays consisting of three first names of your cohort members in each array.
+// console.log(charsReversed.join("*"))
+// // Write the code that brings all the letters in the charsReversed array together into a string without separators.
+// console.log(charsReversed.join(""))
+// // Create two arrays consisting of three first names of your cohort members in each array.
 let group1 = ["judas", "ryan", "matt"]
 let group2 = ["luis", "morgan", "seth"]
+
+// console.log(group1, group2)
+// // Write the code that sorts the names in alphabetical order.
+// console.log( group1.sort(), group2.sort())
+// Write the code that sorts the names in reverse alphabetical order.
+ group1.sort()
+ group1.reverse()
+ group2.sort()
+ group2.reverse()
+ console.log(group1, group2)
+ //group2.sort(((a, b) => b - a)))
+
 console.log(group1, group2)
 // Write the code that sorts the names in alphabetical order.
 console.log(group1.sort(), group2.sort())
 // Write the code that sorts the names in reverse alphabetical order.
 console.log(group1.sort().reverse())
 console.log(group2.sort().reverse())
+
 // Write the code that sorts all the names in alphabetical order in a single array.
 let sortedGroup1 = group1.sort()
 let sortedGroup2 = group2.sort()

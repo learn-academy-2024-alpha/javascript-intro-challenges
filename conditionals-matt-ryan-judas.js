@@ -62,14 +62,22 @@
             console.log("numbers are the same")
         } 
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
-    let thirdNum = 10
-    if ( thirdNum === 0){
-        console.log("zero");
-    } else if (thirdNum % 2 === 0) {
-        console.log("even");
-    } else {
-        console.log("odd");
-    }
+        let thirdNum = 1
+        if (thirdNum === 0){
+            console.log("zero")
+        } else if (thirdNum % 2 === 0){
+            console.log("even")
+        } else {
+            console.log ("odd")
+        }
+    // let thirdNum = 10
+    // if ( thirdNum === 0){
+    //     console.log("zero");
+    // } else if (thirdNum % 2 === 0) {
+    //     console.log("even");
+    // } else {
+    //     console.log("odd");
+    // }
     
 
 // 🏔 Stretch Goals
