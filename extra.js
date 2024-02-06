@@ -22,8 +22,17 @@ console.log(mixedData(hodgepodge1))
 console.log(mixedData(hodgepodge2))
 
 // // 3.  Create a function that takes in an array of numbers and returns the sum of all the numbers cubed.
+const sumCubed = (numArr) => {
+    let finalValue = 0
+    let arrLength = numArr.length
+    for (let i = 0; i < arrLength; i++) {
+        finalValue += numArr[i] ** 3
+    }
+    return finalValue
+}
 
-// const cubeAndSum1 = [2, 3, 4]
+const cubeAndSum1 = [2, 3, 4]
 // // Expected output: 99
-// const cubeAndSum2 = [0, 5, 10]
+const cubeAndSum2 = [0, 5, 10]
 // // Expected output: 1125
+console.log(sumCubed(cubeAndSum2))
